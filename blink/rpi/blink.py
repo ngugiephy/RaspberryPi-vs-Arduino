@@ -9,5 +9,5 @@ GPIO.setup(led_pin, GPIO.OUT, initial=GPIO.LOW)
 while True:
     GPIO.output(led_pin, GPIO.HIGH)
     sleep(1)
-    GPIO.output(led_pin, GPIO.HIGH)
+    GPIO.output(led_pin, GPIO.LOW)
     sleep(1)
