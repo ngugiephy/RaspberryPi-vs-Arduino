@@ -11,3 +11,5 @@ while True:
     sleep(1)
     GPIO.output(led_pin, GPIO.LOW)
     sleep(1)
+
+GPIO.cleanup()
